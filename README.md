@@ -1,2 +1,2 @@
 # aboutMe
-# Resume Symple About Me
+Theme based on Start Bootstrap: Resume.
