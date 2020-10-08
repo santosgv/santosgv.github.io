@@ -1,2 +1,2 @@
-# aboutMe
-Theme based on Start Bootstrap: Resume.
+
+# Simple page telling a little about me
