@@ -1,199 +1,273 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Vitor Gomes</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Gomes Vitor</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
-                </ul>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Vitor dos Santos Gomes" />
+  <meta name="description" content="Desenvolvedor Back-End" />
+  <meta name="keywords" content="sites, web, desenvolvimento, programador, Vitor dos Santos, Back-End"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="content-language" content="pt-br" />
+  <meta name="copyright" content="vitor 2021" />
+  <meta property="og:image" content="#" />
+  <meta property="og:title" content="Portfólio | Vitor Gomes - Desenvolvedor Back-End" />
+  <meta property="og:description" content="Desenvolvedor Back-End" />
+  <title>Portfólio | Vitor Gomes - Desenvolvedor Back-End</title>
+  <!--Fonte-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet" /> 
+  <!--Meu Style CSS-->
+  <link rel="stylesheet" href="assets/scss/style.css" />
+  <link rel="shortcut icon" href="assets/image/profile.png" type="image/x-icon" />
+</head>
+
+<body>
+  <!--Menu-->
+  <header>
+    <div class="larguraMaxContainer">
+      <nav>
+          <h1 class="logo">Portfólio</h1>
+          <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+              <li><a href="#sobre">Sobre mim</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#conhecimentos">Conhecimentos</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!--Home-->
+    <section id="apresentacaoPortfolio">
+      <div class="larguraMaxContainer">
+        <article id="apresentacaoTexto">
+          <h2 class="imagem-delay">
+            Olá, eu sou o<br>
+            <span id="nome">Vitor Gomes</span><br>
+            <span class="maquina-escrever">Desenvolvedor Back-End.</span>
+          </h2>
+          <a href="https://api.whatsapp.com/send?phone=5531993839825&text=Ola%20!%20vim%20pelo%20seu%20Portifolio" target="_blank" class="button">
+            <span class="iconify" data-inline="false" data-icon="bi:whatsapp"></span>&nbsp;WhatsApp
+          </a>
+        </article>
+        <article id="apresentacaoFoto">
+          <img src="assets/image/espaco-ux.png" id="fundo" class="imagem-espaco-delay">
+          <img src="assets/image/flutuando.png" class="object imagem-iuri-delay">
+        </article>
+      </div>
+    </section>
+
+    <!--Sobre mim-->
+    <section id="sobre">
+      <div class="larguraMaxContainer">
+        <section id="sobreMim">
+          <article id="sobreFoto">
+            <img src="assets/image/profile.png" class="imagem-delay">
+          </article>
+          <article id="sobreTexto">
+            <h2 class="titulo-delay">Sobre mim</h2>
+            <p class="descricao-delay">
+              Meu nome é Vitor dos santos, tenho 25 anos, moro no Brasil, especificamente em Belo Horizonte. Atualmente estou
+              estudando em uma universidade. Também tenho estudado bastante sozinho para aprender
+              novas tecnologias.
+            </p>
+            <p class="descricao-delay">
+              Iniciei depois de ser contratado por uma empresa atuando como analista de sitemas, deste em tao venho estudando para migrar na area de desenvolvimento de softwares
+            </p>
+            <div>
+              <a href="https://www.linkedin.com/in/vitor-dos-santos-gomes-501011178/" target="_blank" class="button">
+                <span class="iconify" data-inline="false" data-icon="akar-icons:linkedin-fill"></span>&nbsp;Linkedin
+              </a>
+              <a href="curriculo.pdf" class="button" download="Currículo - Vitor Gomes (Back-End Júnior)">
+                <span class="iconify" data-inline="false" data-icon="ri:download-cloud-fill"></span>&nbsp;Currículo
+              </a>
             </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Gomes
-                        <span class="text-primary">Vitor</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        Belvedere - Ribeirao das Neves ·
-                        <a href="vitordevolp@gmail.com">vitordevolp@gmail.com</a>
-                    </div>
-                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/vitor-dos-gomes-501011178/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/santosgv"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://twitter.com/vitim_gone"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="https://www.facebook.com/profile.php?id=100055630401121"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">SYSTEM ASSISTANT</h3>
-                            <div class="subheading mb-3">PATRUS TRANSPORTES</div>
-                            <p>Support to users of systems involving the company's operation, patching and enhancements.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">February 2019 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">ASSISTANT OPERACION</h3>
-                            <div class="subheading mb-3">PATRUS TRANSPORTES</div>
-                            <p>Assisted in the work of the operational sector leader.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">February  2014 - August  2018</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">YOUNG APPRENTICE</h3>
-                            <div class="subheading mb-3">PATRUS TRANSPORTES</div>
-                            <p>my first job in the company.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2012 - November 2013</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University Unopar</h3>
-                            <div class="subheading mb-3">Bachelor of analysis and systems development</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2019 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Senac Minas</h3>
-                            <div class="subheading mb-3">technician in computer networks</div>
+          </article>
+        </section>
+      </div>
+    </section>
+ 
+    <!--Projetos-->
+    <section id="projetos">
+      <div class="larguraMaxContainer">
+        <h2 class="titulo-delay">Projetos</h2>
+        <article>
+          <div class="cards-interval">
+            <h3>landing Page</h3>
+            <p>🛒 Site (não responsivo) desenvolvido para Brasil farma. Serviço prestado para estudos.</p>
+            <span>
+              <a href="https://santosgv.github.io/e-commerce.github.io/" target="_blank" class="button">
+                <button><span class="iconify" data-inline="false" data-icon="bx:bx-link"></span></i>&nbsp;Website</button>
+              </a>
+              <a href="https://github.com/santosgv/e-commerce.github.io"  target="_blank" class="button">
+                <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button>
+              </a>
+            </span>
+            <div class="linguagensProjeto">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+          </div>
+          <div class="cards-interval">
+            <h3>download video youtube mp4</h3>
+            <p>Esse é um projeto para fins de estudo.</p>
+              <a href="https://github.com/santosgv/donwloadYT" target="_blank" class="button">
+                <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button>
+              </a>
+            </span>
+            <div class="linguagensProjeto">
+              <span>Python</span>
+              <span>Tkinter</span>
+              <span>Pytube</span>
+            </div>
+          </div>
+           <div class="cards-interval">
+            <h3>Controle de Estacionamento</h3>
+            <p>Software em uma versao simples onde e possivel cadastrar veiculos e registrar entrada e saida.</p>
+            <a href="https://github.com/santosgv/LiteversionControllerPark"  target="_blank" class="button">
+              <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button></a>
+              <div class="linguagensProjeto">
+                <span>Python</span>
+                <span>Tkinter</span>
+                <span>SQL-Server</span>
+              </div>
+          </div>
+          <div class="cards-interval">
+            <h3>Gerenciador de Senhas</h3>
+            <p>Mini projeto onde as senhas sao adicionadas em um banco de dados</p>
+            <a href="https://github.com/santosgv/GerenciadorSenhas"  target="_blank" class="button">
+              <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button></a>
+              <div class="linguagensProjeto">
+                <span>Python</span>
+                <span>Tkinter</span>
+                <span>Sqlite3</span>
+              </div>
+          </div>
+          <div class="cards-interval">
+            <h3>Em breve</h3>
+            <p>Projeto em construção.</p>
+          </div>
+          <div class="cards-interval">
+            <h3>Em breve</h3>
+            <p>Projeto em construção.</p>
+          </div>
+        </article>
+        <a href="https://github.com/santosgv" target="_blank" class="descricao-delay">Repositórios no GitHub</a>
+      </div>
+    </section>
 
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">November 2016 - July 2018</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item" title="Git"><i class="fab fa-github"></i>
-                        <li class="list-inline-item" title="HTML 5"><i class="fab fa-html5"></i>
-                        <li class="list-inline-item" title="CSS 3"><i class="fab fa-css3-alt"></i>
-                        <li class="list-inline-item" title="Python 3"><i class="fab fa-python"></i>
-                        <li class="list-inline-item" title="JS"><i class="fab fa-node-js"></i>
-                        <li class="list-inline-item" title="Windows"><i class="fab fa-windows"></i>
-                        <li class="list-inline-item" title="Linx"><i class="fab fa-linux"></i>
-              </li>
-              </li>
-              </li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Modular applications
-                        </li>
+    <!--Serviços-->
+    <section id="servicos">
+      <div class="larguraMaxContainer">
+        <h2 class="titulo-delay">Serviços</h2>
+        <article>
+          <div class="cards-interval">
+            <span class="iconify" data-inline="false" data-icon="clarity:computer-line"></span>
+            <h3>Criação de Sites</h3>
+            <p>Desenvolvimento de sites profissionais, sistemas web, blogs e lojas virtuais.</p>
+          </div>
+          <div class="cards-interval">
+            <span class="iconify" data-inline="false" data-icon="akar-icons:mobile-device"></span>
+            <h3>Sites Responsivos</h3>
+            <p>Criação de sites responsivos para a melhor visualização em todas as resoluções.</p>
+          </div>
+          <div class="cards-interval">
+            <span class="iconify" data-inline="false" data-icon="bi:code-square"></span>
+            <h3>Desenvolvimento de Software</h3>
+            <p>Metodologia ageis de desenvolvimento manutençao e correçoes em sistemas legado.</p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>In addition to being a Backand developer, I'm passionate about motorcycles when I have time off work and I like to go on short trips with my biker groupmates, I also like to practice sports like football and swimming.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, and I spend a large amount of my free time exploring the latest technology advancements in the back-end development world.</p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Python data analysis - Data Science Academy
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Microsoft SQL Server - Softblue Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Python - Data Science Academy Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            HTML5 - Udemy Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            CSS - Udemy Certification
-                        </li>
-                    </ul>
-                </div>
-            </section>
+    <!--Conhecimentos-->
+    <section id="conhecimentos">
+      <div class="larguraMaxContainer">
+        <h2 class="titulo-delay">Conhecimentos</h2>
+        <div>
+          <article class="htmlecss cards-interval">
+            <div id="dualIcones">
+              <span class="iconify" data-inline="false" data-icon="icomoon-free:html-five"></span>
+              <span class="iconify" data-inline="false" data-icon="simple-icons:css3"></span>
+            </div>
+            <h3>HTML e CSS</h3>
+            <p>1 anos de experiência</p>
+          </article>
+          <article class="js cards-interval">
+            <span class="iconify" data-inline="false" data-icon="cib:js"></span>
+            <h3>JavaScript</h3>
+            <p>1 ano de experiência</p>
+          </article>
+          <article class="python cards-interval">
+            <span class="iconify" data-icon="fa-brands:python" data-inline="false"></span>
+            <h3>Python 3</h3>
+            <p>3 ano de experiência</p>
+          </article>
+          <article class="sql cards-interval">
+            <span class="iconify" data-icon="carbon:sql" data-inline="false"></span>
+            <h3>Sql Server</h3>
+            <p>3 anos de experiência</p>
+          </article>
+          <article class="C cards-interval">
+            <span class="iconify" data-icon="simple-icons:csharp" data-inline="false"></span>
+            <h3>Csharp</h3>
+            <p>5 meses de experiência</p>
+          </article>
+          <article class=".net cards-interval">
+            <span class="iconify" data-icon="mdi:dot-net" data-inline="false"></span>
+            <h3>.NET</h3>
+            <p>5 mês de experiência</p>
+          </article>
+          <article class="mysql cards-interval">
+            <span class="iconify" data-icon="cib:mysql" data-inline="false"></span>
+            <h3>MySql</h3>
+            <p>3 ano de experiência</p>
+          </article>
+          <article class="linux cards-interval">
+            <span class="iconify" data-icon="cib:linux" data-inline="false"></span>
+            <h3>Linux</h3>
+            <p>1 ano de experiência</p>
+          </article>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+      </div>
+    </section>
+    <div id="stop" class="scrollTop">
+      <span>
+        <a href=""><span class="iconify" data-inline="false" data-icon="dashicons:arrow-up-alt2"></span></a>
+      </span>
+    </div>
+  </main>
+
+  <!--Footer-->
+  <footer class="footer">
+    <p class="titulo-delay">Obrigado pela visita !!!</p>
+    <article id="redesSociais" class="descricao-delay">
+      <a href="https://www.linkedin.com/in/vitor-dos-santos-gomes-501011178/" target="_blank">
+        <span class="iconify" data-inline="false" data-icon="brandico:linkedin"></span>
+      </a>
+      <a href="https://github.com/santosgv" target="_blank">
+        <span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>
+      </a>
+      <a href="https://www.instagram.com/vitim_gone/" target="_blank">
+        <span class="iconify" data-inline="false" data-icon="bi:instagram"></span>
+      </a>
+    </article>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!--Script dos ícones-->
+  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <!--JQuery para o scroll-->
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+  <!--Scritps-->
+  <script src="assets/js/script.js"></script>
+</body>
+
 </html>
