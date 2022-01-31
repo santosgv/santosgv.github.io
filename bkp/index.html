@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Vitor dos Santos Gomes" />
+  <meta name="description" content="Desenvolvedor Back-End" />
+  <meta name="keywords" content="sites, web, desenvolvimento, programador, Vitor dos Santos, Back-End"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="content-language" content="pt-br" />
+  <meta name="copyright" content="vitor 2021" />
+  <meta property="og:image" content="#" />
+  <meta property="og:title" content="Portfólio | Vitor Gomes - Desenvolvedor Back-End" />
+  <meta property="og:description" content="Desenvolvedor Back-End" />
+  <title>Portfólio | Vitor Gomes - Desenvolvedor Back-End</title>
+  <!--Fonte-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet" /> 
+  <!--Meu Style CSS-->
+  <link rel="stylesheet" href="assets/scss/style.css" />
+  <link rel="shortcut icon" href="assets/image/profile.png" type="image/x-icon" />
+</head>
+
+<body oncontextmenu="return false">
+  <!--Menu-->
+  <header>
+    <div class="larguraMaxContainer">
+      <nav>
+          <h1 class="logo">Portfólio</h1>
+          <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+              <li><a href="#sobre">Sobre mim</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#conhecimentos">Conhecimentos</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!--Home-->
+    <section id="apresentacaoPortfolio">
+      <div class="larguraMaxContainer">
+        <article id="apresentacaoTexto">
+          <h2 class="imagem-delay">
+            Olá, eu sou o<br>
+            <span id="nome">Vitor Gomes</span><br>
+            <span class="maquina-escrever">Desenvolvedor Back-End.</span>
+          </h2>
+          <a href="https://api.whatsapp.com/send?phone=5531993839825&text=Ola%20!%20vim%20pelo%20seu%20Portifolio" target="_blank" class="button">
+            <span class="iconify" data-inline="false" data-icon="bi:whatsapp"></span>&nbsp;WhatsApp
+          </a>
+        </article>
+        <article id="apresentacaoFoto">
+          <img src="assets/image/espaco-ux.png" id="fundo" class="imagem-espaco-delay">
+          <img src="assets/image/flutuando.png" class="object imagem-iuri-delay">
+        </article>
+      </div>
+    </section>
+
+    <!--Sobre mim-->
+    <section id="sobre">
+      <div class="larguraMaxContainer">
+        <section id="sobreMim">
+          <article id="sobreFoto">
+            <img src="assets/image/profile.png" class="imagem-delay">
+          </article>
+          <article id="sobreTexto">
+            <h2 class="titulo-delay">Sobre mim</h2>
+            <p class="descricao-delay">
+              Meu nome é Vitor dos santos, tenho 25 anos, moro no Brasil, especificamente em Belo Horizonte. Atualmente estou
+              estudando em uma universidade. Também tenho estudado bastante sozinho para aprender
+              novas tecnologias.
+            </p>
+            <p class="descricao-delay">
+              Iniciei depois de ser contratado por uma empresa atuando como analista de sitemas, deste em tao venho estudando para migrar na area de desenvolvimento de softwares
+            </p>
+            <div>
+              <a href="https://www.linkedin.com/in/vitor-santos-gomes-501011178/" target="_blank" class="button">
+                <span class="iconify" data-inline="false" data-icon="akar-icons:linkedin-fill"></span>&nbsp;Linkedin
+              </a>
+              <a href="Vitor Santos Gomes.pdf" class="button" download="Currículo - Vitor Gomes (Back-End Júnior)">
+                <span class="iconify" data-inline="false" data-icon="ri:download-cloud-fill"></span>&nbsp;Currículo
+              </a>
+            </div>
+          </article>
+        </section>
+      </div>
+    </section>
+ 
+    <!--Projetos-->
+    <section id="projetos">
+      <div class="larguraMaxContainer">
+        <h2 class="titulo-delay">Projetos</h2>
+        <article>
+          <div class="cards-interval">
+            <h3>IMOBI</h3>
+            <p>Projeto de uma imobiliaria utilizando Django</p>
+            <span>
+              <a href="https://vitorgomes.pythonanywhere.com" target="_blank" class="button">
+                <button><span class="iconify" data-inline="false" data-icon="bx:bx-link"></span></i>&nbsp;Website</button>
+              </a>
+              <a href="https://github.com/santosgv/WebDjango.Imobi"  target="_blank" class="button">
+                <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button>
+              </a>
+            </span>
+            <div class="linguagensProjeto">
+                <span>Python</span>
+                <span>Django</span>
+                <span>Sqlite</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Bootstrap</span>
+            </div>
+          </div>
+          <div class="cards-interval">
+            <h3>download video youtube mp4</h3>
+            <p>Esse é um projeto para fins de estudo.</p>
+              <a href="https://github.com/santosgv/donwloadYT" target="_blank" class="button">
+                <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button>
+              </a>
+            </span>
+            <div class="linguagensProjeto">
+              <span>Python</span>
+              <span>Tkinter</span>
+              <span>Pytube</span>
+            </div>
+          </div>
+           <div class="cards-interval">
+            <h3>Controle de Estacionamento</h3>
+            <p>Software em uma versao simples onde e possivel cadastrar veiculos e registrar entrada e saida.</p>
+            <a href="https://github.com/santosgv/LiteversionControllerPark"  target="_blank" class="button">
+              <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button></a>
+              <div class="linguagensProjeto">
+                <span>Python</span>
+                <span>Tkinter</span>
+                <span>SQL-Server</span>
+              </div>
+          </div>
+          <div class="cards-interval">
+            <h3>Gerenciador de Senhas</h3>
+            <p>Mini projeto onde as senhas sao adicionadas em um banco de dados</p>
+            <a href="https://github.com/santosgv/GerenciadorSenhas"  target="_blank" class="button">
+              <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button></a>
+              <div class="linguagensProjeto">
+                <span>Python</span>
+                <span>Tkinter</span>
+                <span>Sqlite3</span>
+              </div>
+          </div>
+          <div class="cards-interval">
+            <h3>Bot logar instagram</h3>
+            <p>Mini projeto para estudo do framework</p>
+            <a href="https://github.com/santosgv/Bot_login-Inst"  target="_blank" class="button">
+              <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button></a>
+              <div class="linguagensProjeto">
+                <span>Python</span>
+                <span>Selenium</span>
+                <span>Firefox</span>
+              </div>
+          </div>
+          <div class="cards-interval">
+            <h3>Em breve</h3>
+            <p>Projeto em construção.</p>
+          </div>
+        </article>
+        <a href="https://github.com/santosgv" target="_blank" class="descricao-delay">Repositórios no GitHub</a>
+      </div>
+    </section>
+
+    <!--Serviços-->
+    <section id="servicos">
+      <div class="larguraMaxContainer">
+        <h2 class="titulo-delay">Serviços</h2>
+        <article>
+          <div class="cards-interval">
+            <span class="iconify" data-inline="false" data-icon="clarity:computer-line"></span>
+            <h3>Criação de Sites</h3>
+            <p>Desenvolvimento de sites profissionais, sistemas web, blogs e lojas virtuais.</p>
+          </div>
+          <div class="cards-interval">
+            <span class="iconify" data-inline="false" data-icon="akar-icons:mobile-device"></span>
+            <h3>Sites Responsivos</h3>
+            <p>Criação de sites responsivos para a melhor visualização em todas as resoluções.</p>
+          </div>
+          <div class="cards-interval">
+            <span class="iconify" data-inline="false" data-icon="bi:code-square"></span>
+            <h3>Desenvolvimento de Software</h3>
+            <p>Metodologia ageis de desenvolvimento manutençao e correçoes em sistemas legado.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--Conhecimentos-->
+    <section id="conhecimentos">
+      <div class="larguraMaxContainer">
+        <h2 class="titulo-delay">Conhecimentos</h2>
+        <div>
+          <article class="htmlecss cards-interval">
+            <div id="dualIcones">
+              <span class="iconify" data-inline="false" data-icon="icomoon-free:html-five"></span>
+              <span class="iconify" data-inline="false" data-icon="simple-icons:css3"></span>
+            </div>
+            <h3>HTML e CSS</h3>
+            <p>1 anos de experiência</p>
+          </article>
+          <article class="js cards-interval">
+            <span class="iconify" data-inline="false" data-icon="cib:js"></span>
+            <h3>JavaScript</h3>
+            <p>1 ano de experiência</p>
+          </article>
+          <article class="python cards-interval">
+            <span class="iconify" data-icon="fa-brands:python" data-inline="false"></span>
+            <h3>Python 3</h3>
+            <p>3 ano de experiência</p>
+          </article>
+          <article class="sql cards-interval">
+            <span class="iconify" data-icon="carbon:sql" data-inline="false"></span>
+            <h3>Sql Server</h3>
+            <p>3 anos de experiência</p>
+          </article>
+          <article class="C cards-interval">
+            <span class="iconify" data-icon="simple-icons:csharp" data-inline="false"></span>
+            <h3>Csharp</h3>
+            <p>5 meses de experiência</p>
+          </article>
+          <article class=".net cards-interval">
+            <span class="iconify" data-icon="mdi:dot-net" data-inline="false"></span>
+            <h3>.NET</h3>
+            <p>5 mês de experiência</p>
+          </article>
+          <article class="mysql cards-interval">
+            <span class="iconify" data-icon="cib:mysql" data-inline="false"></span>
+            <h3>MySql</h3>
+            <p>3 ano de experiência</p>
+          </article>
+          <article class="linux cards-interval">
+            <span class="iconify" data-icon="cib:linux" data-inline="false"></span>
+            <h3>Linux</h3>
+            <p>1 ano de experiência</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <div id="stop" class="scrollTop">
+      <span>
+        <a href=""><span class="iconify" data-inline="false" data-icon="dashicons:arrow-up-alt2"></span></a>
+      </span>
+    </div>
+  </main>
+
+  <!--Footer-->
+  <footer class="footer">
+    <p class="titulo-delay">Obrigado pela visita !!!</p>
+    <article id="redesSociais" class="descricao-delay">
+      <a href="https://www.linkedin.com/in/vitor-santos-gomes-501011178/" target="_blank">
+        <span class="iconify" data-inline="false" data-icon="brandico:linkedin"></span>
+      </a>
+      <a href="https://github.com/santosgv" target="_blank">
+        <span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>
+      </a>
+      <a href="https://www.instagram.com/vitim_gone/" target="_blank">
+        <span class="iconify" data-inline="false" data-icon="bi:instagram"></span>
+      </a>
+    </article>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!--Script dos ícones-->
+  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <!--JQuery para o scroll-->
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+  <!--Scritps-->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

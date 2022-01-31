@@ -1,283 +1,163 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="author" content="Vitor dos Santos Gomes" />
-  <meta name="description" content="Desenvolvedor Back-End" />
-  <meta name="keywords" content="sites, web, desenvolvimento, programador, Vitor dos Santos, Back-End"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="content-language" content="pt-br" />
-  <meta name="copyright" content="vitor 2021" />
-  <meta property="og:image" content="#" />
-  <meta property="og:title" content="Portfólio | Vitor Gomes - Desenvolvedor Back-End" />
-  <meta property="og:description" content="Desenvolvedor Back-End" />
-  <title>Portfólio | Vitor Gomes - Desenvolvedor Back-End</title>
-  <!--Fonte-->
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet" /> 
-  <!--Meu Style CSS-->
-  <link rel="stylesheet" href="assets/scss/style.css" />
-  <link rel="shortcut icon" href="assets/image/profile.png" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Vitor Gomes - Desenvolvedor Back-End</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./src/assets/image/profile.png" type="image/x-icon" />
 </head>
-
-<body oncontextmenu="return false">
-  <!--Menu-->
-  <header>
-    <div class="larguraMaxContainer">
-      <nav>
-          <h1 class="logo">Portfólio</h1>
-          <div class="mobile-menu">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
-          </div>
-          <ul class="nav-list">
-              <li><a href="#sobre">Sobre mim</a></li>
-              <li><a href="#projetos">Projetos</a></li>
-              <li><a href="#servicos">Serviços</a></li>
-              <li><a href="#conhecimentos">Conhecimentos</a></li>
+<body>
+  <header class="container">
+      <a href="#" class="logo">Portfólio</a>
+      <nav class="nav-menu">
+          <ul class="menu">
+              <li class="menu__item"><a href="#sobre">Sobre mim</a></li>
+              <li class="menu__item"><a href="#projetos">Projetos</a></li>
+              <li class="menu__item"><a href="#servicos">Serviços</a></li>
+              <li class="menu__item"><a href="#skills">Minhas skills</a></li>
           </ul>
       </nav>
-    </div>
   </header>
-
-  <main>
-    <!--Home-->
-    <section id="apresentacaoPortfolio">
-      <div class="larguraMaxContainer">
-        <article id="apresentacaoTexto">
-          <h2 class="imagem-delay">
-            Olá, eu sou o<br>
-            <span id="nome">Vitor Gomes</span><br>
-            <span class="maquina-escrever">Desenvolvedor Back-End.</span>
-          </h2>
-          <a href="https://api.whatsapp.com/send?phone=5531993839825&text=Ola%20!%20vim%20pelo%20seu%20Portifolio" target="_blank" class="button">
-            <span class="iconify" data-inline="false" data-icon="bi:whatsapp"></span>&nbsp;WhatsApp
-          </a>
-        </article>
-        <article id="apresentacaoFoto">
-          <img src="assets/image/espaco-ux.png" id="fundo" class="imagem-espaco-delay">
-          <img src="assets/image/flutuando.png" class="object imagem-iuri-delay">
-        </article>
-      </div>
-    </section>
-
-    <!--Sobre mim-->
-    <section id="sobre">
-      <div class="larguraMaxContainer">
-        <section id="sobreMim">
-          <article id="sobreFoto">
-            <img src="assets/image/profile.png" class="imagem-delay">
-          </article>
-          <article id="sobreTexto">
-            <h2 class="titulo-delay">Sobre mim</h2>
-            <p class="descricao-delay">
-              Meu nome é Vitor dos santos, tenho 25 anos, moro no Brasil, especificamente em Belo Horizonte. Atualmente estou
-              estudando em uma universidade. Também tenho estudado bastante sozinho para aprender
-              novas tecnologias.
-            </p>
-            <p class="descricao-delay">
-              Iniciei depois de ser contratado por uma empresa atuando como analista de sitemas, deste em tao venho estudando para migrar na area de desenvolvimento de softwares
-            </p>
-            <div>
-              <a href="https://www.linkedin.com/in/vitor-santos-gomes-501011178/" target="_blank" class="button">
-                <span class="iconify" data-inline="false" data-icon="akar-icons:linkedin-fill"></span>&nbsp;Linkedin
-              </a>
-              <a href="Vitor Santos Gomes.pdf" class="button" download="Currículo - Vitor Gomes (Back-End Júnior)">
-                <span class="iconify" data-inline="false" data-icon="ri:download-cloud-fill"></span>&nbsp;Currículo
-              </a>
+  <main class="container">
+      <section class="start">
+            <div class="start__content">
+                <h1 class="start__title">Olá, sou Vitor Gomes !!! </h1>
+                <p class="start__description">Desenvolvedor Back-End & Python</p>
+                <div class="content-btn">
+                    <a href="Vitor Santos Gomes.pdf" download="Currículo - Vitor Gomes (Back-End Júnior)" class="down-cv">Download CV</a>
+                    <a href="https://api.whatsapp.com/send?phone=5531993839825&text=Ola%20!%20vim%20pelo%20seu%20Portifolio" target="_blank" class="start_contact">Entrar em contato</a>
+                </div>
             </div>
-          </article>
-        </section>
-      </div>
-    </section>
- 
-    <!--Projetos-->
-    <section id="projetos">
-      <div class="larguraMaxContainer">
-        <h2 class="titulo-delay">Projetos</h2>
-        <article>
-          <div class="cards-interval">
-            <h3>IMOBI</h3>
-            <p>Projeto de uma imobiliaria utilizando Django</p>
-            <span>
-              <a href="https://vitorgomes.pythonanywhere.com" target="_blank" class="button">
-                <button><span class="iconify" data-inline="false" data-icon="bx:bx-link"></span></i>&nbsp;Website</button>
-              </a>
-              <a href="https://github.com/santosgv/WebDjango.Imobi"  target="_blank" class="button">
-                <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button>
-              </a>
-            </span>
-            <div class="linguagensProjeto">
-                <span>Python</span>
-                <span>Django</span>
-                <span>Sqlite</span>
-                <span>HTML5</span>
-                <span>CSS3</span>
-                <span>Bootstrap</span>
+            <div class="start__img">
+                <img src="src/img/start-img.svg" alt="Imagem inicial do portfólio">
             </div>
-          </div>
-          <div class="cards-interval">
-            <h3>download video youtube mp4</h3>
-            <p>Esse é um projeto para fins de estudo.</p>
-              <a href="https://github.com/santosgv/donwloadYT" target="_blank" class="button">
-                <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button>
-              </a>
-            </span>
-            <div class="linguagensProjeto">
-              <span>Python</span>
-              <span>Tkinter</span>
-              <span>Pytube</span>
-            </div>
-          </div>
-           <div class="cards-interval">
-            <h3>Controle de Estacionamento</h3>
-            <p>Software em uma versao simples onde e possivel cadastrar veiculos e registrar entrada e saida.</p>
-            <a href="https://github.com/santosgv/LiteversionControllerPark"  target="_blank" class="button">
-              <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button></a>
-              <div class="linguagensProjeto">
-                <span>Python</span>
-                <span>Tkinter</span>
-                <span>SQL-Server</span>
+      </section>
+      <section class="about" id="sobre">
+          <h2 class="about__title">Sobre mim</h2>
+          <p class="about__description">    Meu nome é Vitor dos santos, tenho 26 anos, moro no Brasil, especificamente em Belo Horizonte. Atualmente estou
+            estudando em uma universidade. Também tenho estudado bastante sozinho para aprender
+            novas tecnologias. <br>
+            Iniciei depois de ser contratado por uma empresa atuando como analista de sitemas, deste em tao venho estudando para migrar na area de desenvolvimento de softwares
+        </p>
+    
+          <div class="about__contact"> 
+              <div class="about__name">
+                  <img src="src/img/icons8-linkedin.svg" alt="linkedin">
+                  <a href="https://www.linkedin.com/in/vitor-santos-gomes-501011178/" target="_blank">linkedin</a>
+                  <p>vitor-santos-gomes-501011178</p>
               </div>
-          </div>
-          <div class="cards-interval">
-            <h3>Gerenciador de Senhas</h3>
-            <p>Mini projeto onde as senhas sao adicionadas em um banco de dados</p>
-            <a href="https://github.com/santosgv/GerenciadorSenhas"  target="_blank" class="button">
-              <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button></a>
-              <div class="linguagensProjeto">
-                <span>Python</span>
-                <span>Tkinter</span>
-                <span>Sqlite3</span>
+              <div class="about__email">
+                  <img src="src/img/icons8-gmail.svg" alt="">
+                  <h3>E-mail</h3>
+                  <p>santosgomesv@gmail.com</p>
               </div>
-          </div>
-          <div class="cards-interval">
-            <h3>Bot logar instagram</h3>
-            <p>Mini projeto para estudo do framework</p>
-            <a href="https://github.com/santosgv/Bot_login-Inst"  target="_blank" class="button">
-              <button><span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>&nbsp;GitHub</button></a>
-              <div class="linguagensProjeto">
-                <span>Python</span>
-                <span>Selenium</span>
-                <span>Firefox</span>
+              <div class="about__insta">
+                  <img src="src/img/icons8-instagram.svg" alt="">
+                  <a href="https://www.instagram.com/vitim_gone/" target="_blank">Instagram</a>
+                  <p>@vitim_gone</p>
               </div>
-          </div>
-          <div class="cards-interval">
-            <h3>Em breve</h3>
-            <p>Projeto em construção.</p>
-          </div>
-        </article>
-        <a href="https://github.com/santosgv" target="_blank" class="descricao-delay">Repositórios no GitHub</a>
-      </div>
-    </section>
-
-    <!--Serviços-->
-    <section id="servicos">
-      <div class="larguraMaxContainer">
-        <h2 class="titulo-delay">Serviços</h2>
-        <article>
-          <div class="cards-interval">
-            <span class="iconify" data-inline="false" data-icon="clarity:computer-line"></span>
-            <h3>Criação de Sites</h3>
-            <p>Desenvolvimento de sites profissionais, sistemas web, blogs e lojas virtuais.</p>
-          </div>
-          <div class="cards-interval">
-            <span class="iconify" data-inline="false" data-icon="akar-icons:mobile-device"></span>
-            <h3>Sites Responsivos</h3>
-            <p>Criação de sites responsivos para a melhor visualização em todas as resoluções.</p>
-          </div>
-          <div class="cards-interval">
-            <span class="iconify" data-inline="false" data-icon="bi:code-square"></span>
-            <h3>Desenvolvimento de Software</h3>
-            <p>Metodologia ageis de desenvolvimento manutençao e correçoes em sistemas legado.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!--Conhecimentos-->
-    <section id="conhecimentos">
-      <div class="larguraMaxContainer">
-        <h2 class="titulo-delay">Conhecimentos</h2>
-        <div>
-          <article class="htmlecss cards-interval">
-            <div id="dualIcones">
-              <span class="iconify" data-inline="false" data-icon="icomoon-free:html-five"></span>
-              <span class="iconify" data-inline="false" data-icon="simple-icons:css3"></span>
+              <div class="about__insta">
+                <img src="src/img/icons8-twitter-dentro-de-um-círculo.svg" alt="Twitter">
+                <a href="https://twitter.com/vitim_gone" target="_blank">Twitter</a>
+                <p>#vitim_gone</p>
             </div>
-            <h3>HTML e CSS</h3>
-            <p>1 anos de experiência</p>
-          </article>
-          <article class="js cards-interval">
-            <span class="iconify" data-inline="false" data-icon="cib:js"></span>
-            <h3>JavaScript</h3>
-            <p>1 ano de experiência</p>
-          </article>
-          <article class="python cards-interval">
-            <span class="iconify" data-icon="fa-brands:python" data-inline="false"></span>
-            <h3>Python 3</h3>
-            <p>3 ano de experiência</p>
-          </article>
-          <article class="sql cards-interval">
-            <span class="iconify" data-icon="carbon:sql" data-inline="false"></span>
-            <h3>Sql Server</h3>
-            <p>3 anos de experiência</p>
-          </article>
-          <article class="C cards-interval">
-            <span class="iconify" data-icon="simple-icons:csharp" data-inline="false"></span>
-            <h3>Csharp</h3>
-            <p>5 meses de experiência</p>
-          </article>
-          <article class=".net cards-interval">
-            <span class="iconify" data-icon="mdi:dot-net" data-inline="false"></span>
-            <h3>.NET</h3>
-            <p>5 mês de experiência</p>
-          </article>
-          <article class="mysql cards-interval">
-            <span class="iconify" data-icon="cib:mysql" data-inline="false"></span>
-            <h3>MySql</h3>
-            <p>3 ano de experiência</p>
-          </article>
-          <article class="linux cards-interval">
-            <span class="iconify" data-icon="cib:linux" data-inline="false"></span>
-            <h3>Linux</h3>
-            <p>1 ano de experiência</p>
-          </article>
-        </div>
-      </div>
-    </section>
-    <div id="stop" class="scrollTop">
-      <span>
-        <a href=""><span class="iconify" data-inline="false" data-icon="dashicons:arrow-up-alt2"></span></a>
-      </span>
-    </div>
+          </div>
+      </section>
+      <section class="projects" id="projetos">
+          <h2 class="projects__title">Projetos</h2>
+          <div class="box">
+                <div class="box__projects">
+                    <img src="src/assets/image/Captura de tela de 2022-01-29 12-35-33.png" alt="">
+                    <h3 class="box__title">IMOBI</h3>
+                    <p class="box__description">Python, Django, Sqlite, HTML5, CSS3 e Bootstrap
+                    <div class="content-btn">
+                    <a href="https://vitorgomes.pythonanywhere.com"  target="_blank" class="down-cv">Site</a>
+                    <a href="https://github.com/santosgv/WebDjango.Imobi" target="_blank" class="start_contact">github</a>
+                </div>
+                </div>
+                <div class="box__projects">
+                    <img src="src/assets/image/Captura de tela de 2022-01-29 15-43-25.png" alt="">
+                    <h3 class="box__title">Sistema de Login</h3>
+                    <p class="box__description">Python, Tkinter , Sqlite , SQL alquimist</p>
+                    <div class="content-btn-git">
+                    <a href="https://github.com/santosgv/Login.mvc.sqlAlquimist" target="_blank" class="start_contact">github</a>
+                </div>
+                </div>
+                <div class="box__projects">
+                    <img src="src/assets/image/Captura de tela de 2022-01-29 13-11-05.png" alt="">
+                    <h3 class="box__title">Site Barbearia W.M</h3>
+                    <p class="box__description">HTML5, CSS3 , Bootstrap , Javascript</p>
+                    <div class="content-btn">
+                    <a href="https://santosgv.github.io/barbearia.github.io/"  target="_blank" class="down-cv">Site</a>
+                    <a href="https://github.com/santosgv/barbearia.github.io" target="_blank" class="start_contact">github</a>
+                </div>
+                </div>
+                <div class="box__projects">
+                    <img src="src/assets/image/Captura de tela de 2022-01-29 15-07-33.png" alt="">
+                    <h3 class="box__title">Chat Real Time</h3>
+                    <p class="box__description">Python, Sockets, Tkinter</p>
+                    <div class="content-btn-git">
+                    <a href="https://github.com/santosgv/chat.realTime.python"  target="_blank" class="start_contact">github</a>
+                </div>
+                </div>
+                <div class="box__projects">
+                    <img src="./src/assets/image/Captura de tela de 2022-01-29 15-45-59.png" alt="">
+                    <h3 class="box__title">Bot Instagram</h3>
+                    <p class="box__description">Python, Google Chrome, Selenium</p>
+                    <div class="content-btn-git">
+                    <a href="https://github.com/santosgv/Instagram.Bot.Comentario" target="_blank" class="start_contact">github</a>
+                </div>
+                </div>
+                <div class="box__projects">
+                    <img src="./src/img/Rectangle 19.svg" alt="">
+                    <h3 class="box__title">Projeto em Construçao</h3>
+                    <p class="box__description">...</p>
+                    <div class="content-btn">
+                    <a href="#" style="margin-left: 5%;" target="_blank" class="down-cv">Site</a>
+                    <a href="#" target="_blank" class="start_contact">github</a>
+                </div>
+                </div>
+          </div>
+      </section>
+      <section class="services" id="servicos">
+          <h2 class="services__title">Serviços</h2>
+          <div class="cards">
+                <div class="card__services">
+                    <img src="src/img/code.svg" alt="">
+                    <h3 class="card__title">Criação de sites</h3>
+                </div>
+                <div class="card__services">
+                    <img src="src/img/icons8-código-64.png" alt="">
+                    <h3 class="card__title">Desenvolvimento</h3>
+                </div>
+                <div class="card__services">
+                    <img src="src/img/smartphone.svg" alt="">
+                    <h3 class="card__title">Sites responsivos</h3>
+                </div>
+            </div>
+      </section>
+      <section class="skills" id="skills">
+          <h2 class="skills__title">Minhas skills</h2>
+          <div class="skills__box">
+              <img src="src/img/icomoon-free_html-five.svg" alt="HTML5" class="skills__img">
+              <img src="src/img/fontisto_css3.svg" alt="CSS3" class="skills__img">
+              <img src="src/img/akar-icons_javascript-fill.svg" alt="Javascript" class="skills__img">
+              <img src="src/img/icons8-c-afiado-logotipo.svg" alt="C#" class="skills__img">
+              <img src="src/img/icons8-sql-100.png" alt="SQL" class="skills__img">
+              <img src="src/img/icons8-python.svg" alt="Python" class="skills__img">
+              <img src="src/img/icons8-compare-git-64.png" alt="Git" class="skills__img">
+              <img src="src/img/icons8-api-64.png" alt="Api" class="skills__img">
+              
+          </div>
+      </section>
   </main>
-
-  <!--Footer-->
-  <footer class="footer">
-    <p class="titulo-delay">Obrigado pela visita !!!</p>
-    <article id="redesSociais" class="descricao-delay">
-      <a href="https://www.linkedin.com/in/vitor-santos-gomes-501011178/" target="_blank">
-        <span class="iconify" data-inline="false" data-icon="brandico:linkedin"></span>
-      </a>
-      <a href="https://github.com/santosgv" target="_blank">
-        <span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"></span>
-      </a>
-      <a href="https://www.instagram.com/vitim_gone/" target="_blank">
-        <span class="iconify" data-inline="false" data-icon="bi:instagram"></span>
-      </a>
-    </article>
+  <footer>
+      <span>Vitor do Santos Gomes<span></p>
   </footer>
-
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <!--Script dos ícones-->
-  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-  <!--JQuery para o scroll-->
-  <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
-  <!--Scritps-->
-  <script src="assets/js/script.js"></script>
 </body>
-
 </html>
