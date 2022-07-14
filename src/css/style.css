@@ -5,7 +5,7 @@
 }
 
 :root {
-    --green-light: #00DF5E;
+    --green-light: #7950F2;
     --white: #F9F9F9;
     --gray: #828282;
     --gray-200: #333333;
@@ -156,7 +156,9 @@ header {
 }
 
 .start__img img {
-    width: 100%;
+    width: 60%;
+    height: 90%;
+    margin-left: 150px;
 }
 
 .about {
@@ -502,6 +504,7 @@ footer span {
 
     .start__img img {
         width: 80%;
+        margin-left: 0px;
     }
 
     .start__img {
